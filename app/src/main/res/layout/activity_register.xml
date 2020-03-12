@@ -69,6 +69,7 @@
             android:layout_gravity="center"
             android:text="@string/sign_in"
             android:textColor="@color/dustyWhite"
+            android:id="@+id/sign_in"
             />
     </LinearLayout>
 
