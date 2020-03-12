@@ -1,4 +1,4 @@
-package chavez.alma.thecheezery
+package garcia.alma.thecheezery
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import kotlinx.android.synthetic.main.*
 import kotlinx.android.synthetic.main.activity_products.*
 import kotlinx.android.synthetic.main.item_product.view.*
 

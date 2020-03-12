@@ -1,4 +1,4 @@
-package chavez.alma.thecheezery
+package garcia.alma.thecheezery
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

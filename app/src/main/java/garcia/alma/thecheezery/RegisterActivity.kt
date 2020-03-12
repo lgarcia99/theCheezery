@@ -1,4 +1,4 @@
-package chavez.alma.thecheezery
+package garcia.alma.thecheezery
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
