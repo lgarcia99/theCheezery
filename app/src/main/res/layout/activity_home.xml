@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="50dp">
+        android:paddingHorizontal="25dp">
 
         <Button
             android:text="@string/cold_drinks"
@@ -45,6 +45,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/buttonText"
             android:paddingVertical="@dimen/paddingButton"
+            android:id="@+id/button_cold_drinks"
             />
 
         <Button
@@ -57,6 +58,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/buttonText"
+            android:id="@+id/button_hot_drinks"
             android:paddingVertical="@dimen/paddingButton"
             />
         <Button
@@ -69,6 +71,7 @@
             android:layout_marginTop="4dp"
             android:layout_gravity="fill_horizontal"
             android:textSize="@dimen/buttonText"
+            android:id="@+id/button_sweets"
             android:paddingVertical="@dimen/paddingButton"
             />
         <Button
@@ -81,6 +84,7 @@
             android:layout_marginTop="4dp"
             android:layout_gravity="fill_horizontal"
             android:textSize="@dimen/buttonText"
+            android:id="@+id/button_salties"
             android:paddingVertical="@dimen/paddingButton"
 
             />
