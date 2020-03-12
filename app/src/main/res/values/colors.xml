@@ -3,6 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#FE2BD0</color>
-    <color name="purpleishGrey">#301934</color>
+    <color name="purpleishGrey">#644B5E</color>
     <color name="dustyWhite">#EBEBEB</color>
+    <color name="veryPurple">#97397D</color>
+    <color name="lessPurple">#B2108D</color>
+    <color name="pinky">#C50390</color>
+    <color name="lastPink">#EF029D</color>
 </resources>

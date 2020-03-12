@@ -7,55 +7,54 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="461dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/the_cheezery" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@color/purpleishGrey">
+
+    <TextView
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:layout_height="461dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/theCheezery"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:fontFamily="@string/light"
+        android:textColor="@color/dustyWhite"
+        android:textSize="@dimen/titleSize"
+        android:textAlignment="center"
         />
 
-    <LinearLayout
-        android:layout_height="match_parent"
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="5dp"
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:background="@color/purpleishGrey">
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/light"
+        android:text="@string/description"
+        android:textAlignment="center"
+        android:textColor="@color/dustyWhite"
+        android:textSize="@dimen/regText"
+        android:textStyle="italic" />
 
-        <TextView
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome"
-            android:fontFamily="@string/light"
-            android:textColor="@color/dustyWhite"
-            android:textSize="@dimen/titleSize"
-            android:textAlignment="center"
-            />
+    <Button
+      android:id="@+id/buttonp"
+      android:layout_marginTop="20dp"
+      android:layout_width="219dp"
+      android:layout_height="33dp"
+      android:text="@string/get_started"
+      android:textColor="@color/dustyWhite"
+      android:background="@drawable/round_button"
+      android:layout_gravity="center"
+      />
 
-        <TextView
-            android:layout_marginTop="10dp"
-            android:paddingHorizontal="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/description"
-            android:fontFamily="@string/light"
-            android:textColor="@color/dustyWhite"
-            android:textSize="@dimen/regText"
-            android:textStyle="italic"
-            android:textAlignment="center"
-            />
+  </LinearLayout>
 
-
-        <Button
-            android:layout_marginTop="20dp"
-            android:layout_width="219dp"
-            android:layout_height="33dp"
-            android:text="@string/get_started"
-            android:textColor="@color/dustyWhite"
-            android:background="@color/colorAccent"
-            android:layout_gravity="center"
-            />
-
-    </LinearLayout>
 
 
 </LinearLayout>
